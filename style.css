@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Work Sans", sans-serif;
+}
+header{
+    background-color: #fdfde8;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ul {
+    list-style: none;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding: 30px 0;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+.banner h1{
+    font-size: 4rem;
+    margin-bottom: 20px;
+    color: #000000;
+}
+.banner p{
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #555555;
+}
+.banner button{
+    padding: 15px 30px;
+    font-size: 1rem;
+    background-color: #FF900E;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.banner button:hover{
+    background-color: #e07b0c;
+}
+
+.banner img{
+    margin-top: 40px;
+    max-width: 80%;
+    height: auto;
+    border-radius: 15px;
+    padding-bottom: 30px;
+}
