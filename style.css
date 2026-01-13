@@ -10,7 +10,7 @@ body {
     font-family: "Work Sans", sans-serif;
 }
 header{
-    background-color: #fdfde8;
+    background-color: #f7f7ec;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 a {
@@ -52,7 +52,7 @@ nav ul{
     margin-bottom: 30px;
     color: #555555;
 }
-.banner button{
+.primary-btn{
     padding: 15px 30px;
     font-size: 1rem;
     background-color: #FF900E;
@@ -60,15 +60,81 @@ nav ul{
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    width: 220px;
+    margin-top: 20px;
 }
-.banner button:hover{
+.primary-btn:hover{
     background-color: #e07b0c;
 }
 
-.banner img{
+.banner-image{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.banner-image img{
     margin-top: 40px;
-    max-width: 80%;
+    width: 100%;
     height: auto;
-    border-radius: 15px;
-    padding-bottom: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.section-one{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+    /* text-align: center; */
+    width: 80%;
+    margin:40px auto;
+    /* padding: 60px 0; */
+}
+
+.section-one .features{
+    display: flex;
+    flex-direction: column;
+}
+.features .title{
+    font-size: 45px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #000000;
+}
+.title .quick-list{
+    color: #727272;
+    font-weight: 500;
+}
+.features1{
+    color: #FF900E;
+}
+.features p{
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #555555;
+}
+.section-one .images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.section-one .images img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 576px) {
+    .banner h1{
+        font-size: 2.5rem;
+    }
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    nav ul{
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 15px;
+    }
 }
