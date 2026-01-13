@@ -83,12 +83,10 @@ nav ul{
 .section-one{
     display: flex;
     flex-direction: row;
-    gap: 40px;
+    gap: 50px;
     align-items: center;
-    /* text-align: center; */
     width: 80%;
     margin:40px auto;
-    /* padding: 60px 0; */
 }
 
 .section-one .features{
@@ -123,6 +121,124 @@ nav ul{
     height: 200px;
     border-radius: 10px;
 }
+
+.section-two{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 40px auto;
+    margin-top: 80px;
+    gap: 50px;
+}
+.lady img{
+    height: 910px;
+    width: 670px;
+}
+
+.heading{
+    border-left: 5px solid #FF900E;
+    padding-left: 15px;
+}
+.text-boxes .p1{
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #555555;
+    margin-top: 24px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    gap: 10px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+.card h3{
+    font-size: 20px;
+    color: #131111;
+}
+.card-p{
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #555555;
+}
+
+.facts{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 100px;
+    width: 80%;
+    margin:50px auto;
+}
+.facts p{
+    font-size: 16px;
+    color: #555555;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    width: 80%;
+    margin: 20px auto;
+    justify-content: space-around;
+}
+.box{
+    border: 2px solid #FF900E;
+    width: 240px;
+    height: 240px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.box h1{
+    font-size: 45px;
+    color: #000000;
+    font-weight: semibold;
+}
+.box p{
+    font-size: 18px;
+    color: #555555;
+    text-align: center;
+}
+.sponsor{
+    width: 80%;
+    margin: 100px auto;
+    align-items: center;
+    text-align: center;
+}
+.sponsor h1{
+    font-size: 45px;
+}
+.sponsor p{
+    font-size: 16px;
+    color: #555555;
+    margin-top: 20px;
+}
+.sponsor .logos{
+    margin-top: 35px;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+.logos img{
+    filter: grayscale(100%);
+}
+
+footer{
+    width: 80%;
+    margin: 100px auto;
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 30px 50px;
+    color: #555555;
+}
+
 
 @media screen and (max-width: 576px) {
     .banner h1{
