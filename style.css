@@ -253,4 +253,40 @@ footer{
         gap: 15px;
         margin-top: 15px;
     }
+
+    .section-one{
+        flex-direction: column;
+    }
+    .section-two{
+        flex-direction: column;
+    }
+    .lady img{
+        width: 400px;
+        height: 400px;
+    }
+    .info{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    .box{
+        height: 180px;
+        width: 180px;
+        padding: 10px;
+        display: flex;
+        gap: 10px;
+        justify-content: space-around;
+    }
+    .box h1{
+        font-size: 30px;
+    }
+    .logos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .logos img{
+        width: 150px;
+    }
+
 }
